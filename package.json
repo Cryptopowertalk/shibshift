@@ -5,7 +5,7 @@
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
-    "build": "cp -R @pancakeswap node_modules && CI=false && GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "NODE_VERSION=16.16.0 && cp -R @pancakeswap node_modules && GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test --testPathIgnorePatterns=/src/__tests__/config/",
     "test:config": "react-scripts test --testPathPattern=/src/__tests__/config/",
     "integration-test": "start-server-and-test 'serve -s build -p 3000' http://localhost:3000 'cypress run'",
@@ -27,9 +27,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines" : { 
-    "node" : "16.16.0"
   },
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
