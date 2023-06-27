@@ -1,0 +1,4 @@
+// PLS Address
+const PLS_ADDRESS = '0xA1077a294dDE1B09bB078844df40758a5D0f9a27'
+
+export { PLS_ADDRESS }

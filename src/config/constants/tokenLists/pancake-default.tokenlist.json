@@ -1,0 +1,40 @@
+{
+  "name": "PulseShib Default List",
+  "timestamp": "2021-05-06T00:00:00Z",
+  "version": {
+    "major": 3,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://shibshift.com/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "PulseShib",
+      "symbol": "PSB",
+      "address": "0xCFDAeCeeF1Da66eC26Cfb5BE1ef3a5b70BD6e37C",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://shibshift.com/images/tokens/0xCFDAeCeeF1Da66eC26Cfb5BE1ef3a5b70BD6e37C.png"
+    },
+    {
+      "name": "WPLS Token",
+      "symbol": "WPLS",
+      "address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://shibshift.com/images/tokens/0xA1077a294dDE1B09bB078844df40758a5D0f9a27.png"
+    },
+    
+    {
+      "name": "DAI Token",
+      "symbol": "DAI",
+      "address": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://shibshift.com/images/tokens/0xefD766cCb38EaF1dfd701853BFCe31359239F305.png"
+    }
+    
+  ]
+}
