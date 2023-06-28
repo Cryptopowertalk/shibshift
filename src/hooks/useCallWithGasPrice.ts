@@ -27,7 +27,7 @@ export function useCallWithGasPrice() {
 console.log(gasPrice.toString())
       const tx = await contractMethod(
         ...methodArgs,
-        { ...overrides, gasPrice }
+        { ...overrides }
       )
 
       return tx
