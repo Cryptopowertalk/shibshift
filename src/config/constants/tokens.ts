@@ -201,7 +201,7 @@ export const mainnetTokens = {
     18,
     'DAI',
     'DAI Token',
-    'https://www.paxos.com/busd/',
+    '',
   ),
   dai: new Token(
     MAINNET,

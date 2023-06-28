@@ -14,14 +14,14 @@ const options = {
 
 const harvestPool = async (sousChefContract) => {
   const gasPrice = getGasPrice()
-  const tx = await sousChefContract.deposit('0', { ...options, gasPrice })
+  const tx = await sousChefContract.deposit('0', { ...options })
   const receipt = await tx.wait()
   return receipt.status
 }
 
 const harvestPoolBnb = async (sousChefContract) => {
   const gasPrice = getGasPrice()
-  const tx = await sousChefContract.deposit({ ...options, value: BIG_ZERO, gasPrice })
+  const tx = await sousChefContract.deposit({ ...options, value: BIG_ZERO })
   const receipt = await tx.wait()
   return receipt.status
 }
