@@ -22,6 +22,7 @@ export const useApprovePool = (lpContract: Contract, sousId, earningTokenSymbol)
   const handleApprove = useCallback(async () => {
     try {
       setRequestedApproval(true)
+      console.log("----------------------------------------------------++++--")
       const tx = await callWithGasPrice(lpContract, 'approve', [sousChefContract.address, ethers.constants.MaxUint256])
       const receipt = await tx.wait()
 
