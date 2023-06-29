@@ -85,10 +85,10 @@ const App: React.FC = () => {
             <Route path="/farms">
               <Farms />
             </Route>
-            <Route path="/pools">
+            {/* <Route path="/pools">
               <Pools />
             </Route>
-           
+            */}
             
             
             
@@ -110,17 +110,7 @@ const App: React.FC = () => {
             <Route exact strict path="/remove/:tokens" component={RedirectOldRemoveLiquidityPathStructure} />
             <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
 
-            {/* Redirect */}
-            <Route path="/pool">
-              <Redirect to="/liquidity" />
-            </Route>
-            <Route path="/staking">
-              <Redirect to="/pools" />
-            </Route>
-            <Route path="/syrup">
-              <Redirect to="/pools" />
-            </Route>
-            
+          
 
             {/* 404 */}
             <Route component={NotFound} />
