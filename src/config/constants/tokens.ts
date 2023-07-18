@@ -31,6 +31,14 @@ export const mainnetTokens = {
     'PulseShib',
     'https://shibshift.com/',
   ),
+  pulsex: new Token(
+    MAINNET,
+    '0x95B303987A60C71504D99Aa1b13B4DA07b0790ab',
+    18,
+    'PLSX',
+    'PulseX',
+    'https://shibshift.com/',
+  ),
   idrt: new Token(
     MAINNET,
     '0x66207E39bb77e6B99aaB56795C7c340C08520d83',

@@ -41,6 +41,28 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
   }
+  ,
+  {
+    pid: 4,
+    lpSymbol: 'PSB-DAI LP',
+    lpAddresses: {
+      97: '',
+      369: '0xc0bc6f948386e57711bce7b66e70f746cef8d5af',
+    },
+    token: serializedTokens.cake,
+    quoteToken: serializedTokens.busd,
+  }
+  ,
+  {
+    pid: 5,
+    lpSymbol: 'PSB-PLSX LP',
+    lpAddresses: {
+      97: '',
+      369: '0xc854b0aeda17e3ccf3d9e3d8da45dfd7ae7d42aa',
+    },
+    token: serializedTokens.cake,
+    quoteToken: serializedTokens.pulsex,
+  }
   
 ]
 

@@ -35,6 +35,16 @@
       "decimals": 18,
       "logoURI": "https://shibshift.com/images/tokens/0xefD766cCb38EaF1dfd701853BFCe31359239F305.png"
     }
+    ,
+    
+    {
+      "name": "PulseX",
+      "symbol": "PLSX",
+      "address": "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://shibshift.com/images/tokens/0x95B303987A60C71504D99Aa1b13B4DA07b0790ab.png"
+    }
     
   ]
 }
